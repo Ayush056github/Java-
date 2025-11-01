@@ -1,5 +1,3 @@
-//
-
 import java.util.Scanner;
 
 public class Fahrenheit {
@@ -32,6 +30,3 @@ public class Fahrenheit {
     sc.close();
   }
 }
-      
-    
-  
