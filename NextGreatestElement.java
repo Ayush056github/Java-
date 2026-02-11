@@ -10,7 +10,7 @@ class Solution {
       int [] res = new int [n];
 
       for(int i = n-1;i>=0;i--){
-   while(!stack.isEmpty() && stack.peek()>=arr[i]){
+   while(!stack.isEmpty() && stack.peek()<=arr[i]){
                 stack.pop();
             }
         if (stack.isEmpty()) {
